@@ -12,7 +12,7 @@ p {
 }
 
 hr {
-  border: dotted black 6px; /*#eaf6f6*/
+  border: dotted #dee2e2 6px; /*#eaf6f6*/
   border-bottom: none;
   width: 5%;
   margin: 100px auto;
@@ -39,6 +39,7 @@ h1 {
 
 h2 {
   color: #66bfbf;
+  font-size: 1.7em;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
 }
@@ -74,6 +75,11 @@ h3 {
   margin: 100px 0;
 }
 
+.intro {
+  width: 30%;
+  margin: auto auto;
+}
+
 .bottom-container {
   background-color: #66bfbf;
   padding: 50px 0 20px;
@@ -81,7 +87,7 @@ h3 {
 
 .skill-row {
   width: 50%;
-  margin: 200px auto 200px auto;
+  margin: 140px auto 200px auto;
   text-align: left;
 }
 
@@ -90,7 +96,7 @@ h3 {
   float: left;
   margin-right: 30px;
   margin-bottom: 30px;
-  margin-top: 15px;
+  margin-top: 1em;
 }
 
 .skill-image2 {
@@ -105,8 +111,14 @@ h3 {
   width: 20%;
   float: left;
   margin-right: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   margin-top: 15px;
+}
+
+.c-message {
+  width: 30%;
+  margin: auto;
+  margin-bottom: 0.75rem;
 }
 
 .btn {
@@ -125,7 +137,7 @@ h3 {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
-
+/*#eaf6f6*/ /*href="tel:890XXXXXX"*/
 .btn:hover {
   background: #30e3cb;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
