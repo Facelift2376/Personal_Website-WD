@@ -81,7 +81,7 @@ h3 {
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 200px auto 200px auto;
   text-align: left;
 }
 
@@ -90,7 +90,7 @@ h3 {
   float: left;
   margin-right: 30px;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .skill-image2 {
@@ -98,7 +98,7 @@ h3 {
   float: right;
   margin-left: 30px;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .skill-image3 {
@@ -106,7 +106,7 @@ h3 {
   float: left;
   margin-right: 30px;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .btn {
@@ -138,5 +138,6 @@ h3 {
 
 .Copywrites {
   color: #eaf6f6;
-  padding: 20px auto 20px auto;
+  padding: 50px auto 20px auto;
+  margin-top: 50px;
 }
